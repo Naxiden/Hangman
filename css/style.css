@@ -1,0 +1,97 @@
+
+body {
+    background-color: black;
+    color: #B51212;
+    font-size: 26px;
+   font-family: 'Frijole', cursive;
+}
+
+#container {
+    margin: 0 auto;
+    width: 900px;
+}
+#title {
+    font-size: 72px;
+    margin: 0 auto;
+    text-align: center;
+    width: 900px;
+    margin-bottom: 50px;
+}
+#password {
+    font-size: 52px;
+    margin: 0 auto;
+    text-align: center;
+    width: 900px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+#animation {
+    width: 1200px;
+    min-height: 200px;
+    margin-right: 100px;
+
+}
+
+img {
+    text-align: center;
+}
+
+#letters {
+    min-height: 50px;
+    width: 900px;
+}
+
+#container_menu {
+    width: 900px;
+    min-height: 50px;
+}
+
+.play,
+.one_player,
+.two_players,
+.how_to_play {
+    margin: 0 auto;
+    text-align: center;
+    width: 250px;
+    margin-top: 50px;
+    min-height: 50px;
+}
+
+.play {
+    background-color: #103D9E;
+}
+
+.letter:hover{
+    background-color: #EC4E3C;
+    
+}
+
+.letter {
+    width:40px;
+    height: 40px;
+    text-align: center;
+    padding: 2px;
+    margin: 8px;
+    border:3px solid #103D9E;
+    float:left;
+    cursor: crosshair;
+    background-color: black;
+}
+
+
+.butt_yes {
+    border-radius: 50%;
+     width:92px;
+    height: 80px;
+    font-size: 26px;
+    background-color: green;
+}
+
+.butt_no {
+    width: auto;
+    height: 80px;
+    font-size: 26px;
+    border-radius: 50%;
+    background-color: darkred;
+}
